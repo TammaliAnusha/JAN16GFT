@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CSS Demo1</title>
+<h1>First Demo on CSS</h1><hr/>
+<style type="text/css">
+
+/*ioyhasdl*/
+#headerStyles{
+	background-color: blue;
+}
+.myclass{
+	background-color:yellow;
+}
+.myHeader{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<h1 id="headerStyles">A Sample Text for Heading H1</h1>
+<h2>A Sample Text 2 for Heading H2</h2>
+<h3 id="headerStyles">A Sample Text for Heading H3</h3>
+<h4>A Sample Text for Heading H4</h4>
+<h5 id="headerStyles">A Sample Text for Heading H5</h5>
+
+<br/><br/><br/>
+
+<h1 class="myclass">A Sample Text for Heading H1</h1>
+<h2>A Sample Text 2 for Heading H2</h2>
+<h3 class="myclass">A Sample Text for Heading H3</h3>
+<h4>A Sample Text for Heading H4</h4>
+<h5 class="myHeader">A Sample Text for Heading H5</h5>
+
+
+
+
+
+
+</body>
+</html>
